@@ -20,7 +20,7 @@ pub fn not_found() -> Html {
                         </button>
                     </div>
                     <p class={classes!("textbase", "font-op", "font-semibold", "text-xl")}>
-                        {format!("{} The requested page could not be found.", 404)}
+                        {format!("(404) {}", t!("not_found.title"))}
                     </p>
                 </div>
             </div>
