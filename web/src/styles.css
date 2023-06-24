@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	background-color: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #262626;
+	}
+}
+
+@layer base {
+	.textbase {
+		@apply text-zinc-700;
+		@apply dark:text-zinc-400;
+    }
+
+	@font-face {
+		font-family: 'Pixel Operator Mono';
+		src: url('/assets/fonts/PixelOperatorMono.woff2') format('woff2'),
+			url('/assets/fonts/PixelOperatorMono.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+}
+
+
