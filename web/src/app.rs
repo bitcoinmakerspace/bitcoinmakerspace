@@ -1,9 +1,12 @@
+use wasm_bindgen::JsCast;
 use yew::prelude::*;
 use yew_router::prelude::*;
+use yewdux::prelude::use_store;
 
 use crate::{
-    library::{Locale, Route},
+    library::{ColorMode, Locale, Route},
     routes::{Home, NotFound},
+    store::GlobalStore,
 };
 
 fn switch(routes: Route) -> Html {
@@ -25,6 +28,40 @@ fn get_browser_locale() -> Locale {
 pub fn app() -> Html {
     let locale = get_browser_locale();
     rust_i18n::set_locale(locale.to_string());
+
+    let (store, _) = use_store::<GlobalStore>();
+
+    use_effect_with_deps(
+        move |_| {
+            let document = web_sys::window().unwrap().document().unwrap();
+            let element = document.query_selector("html").unwrap().unwrap();
+            let html = element.dyn_into::<web_sys::HtmlElement>().unwrap();
+
+            if store.color_mode.is_none() {
+                let os_dark = web_sys::window()
+                    .unwrap()
+                    .match_media("(prefers-color-scheme: dark)")
+                    .unwrap()
+                    .unwrap();
+                if os_dark.matches() {
+                    html.class_list().remove_1("light").unwrap();
+                    html.class_list().add_1("dark").unwrap();
+                } else {
+                    html.class_list().remove_1("dark").unwrap();
+                    html.class_list().add_1("light").unwrap();
+                }
+            } else if let Some(ColorMode::Light) = store.color_mode {
+                html.class_list().remove_1("dark").unwrap();
+                html.class_list().add_1("light").unwrap();
+            } else if let Some(ColorMode::Dark) = store.color_mode {
+                html.class_list().remove_1("light").unwrap();
+                html.class_list().add_1("dark").unwrap();
+            }
+
+            || {}
+        },
+        (),
+    );
 
     html! {
         <BrowserRouter>

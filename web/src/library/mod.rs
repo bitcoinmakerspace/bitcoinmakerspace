@@ -1,3 +1,6 @@
+pub mod color_mode;
+pub use color_mode::*;
+
 pub mod constants;
 pub use constants::*;
 

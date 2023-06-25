@@ -11,7 +11,9 @@ module.exports = {
     fontFamily: {
       'op': "Pixel Operator Mono"
     },
-    extend: {},
+    extend: {
+      backgroundColor: ['active', 'focus']
+    },
   },
   plugins: [],
 }
