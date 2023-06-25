@@ -13,6 +13,53 @@ html {
 }
 
 @layer base {
+	.nostr-icon-background {
+		@apply text-[#ffffff];
+		@apply dark:text-[#262626];
+	}
+
+	.nostr-icon-transparent {
+		fill: none;
+	}
+
+	.nostr-icon-color {
+		@apply text-[#662482];
+		@apply dark:text-[#9763AD];
+	}
+
+	.bordered {
+		@apply border-2;
+    }
+
+	.bordercolor {
+		@apply border-zinc-200;
+		@apply dark:border-zinc-600;
+	}
+	
+	.textli-hl {
+		@apply text-orange-400;
+		@apply hover:text-orange-300;
+		@apply dark:text-orange-400;
+		@apply dark:hover:text-orange-500;
+    }
+
+	.textli {
+		@apply hover:text-zinc-500;
+		@apply dark:hover:text-zinc-600;
+    }
+
+	.textlt {
+		@apply text-zinc-700;
+		@apply dark:text-zinc-400;
+		@apply opacity-70
+    }
+	
+	.textli,
+	.textbase {
+		@apply text-zinc-700;
+		@apply dark:text-zinc-400;
+    }
+
 	.buttons {
 		@apply flex;
 		@apply flex-row;
@@ -26,11 +73,6 @@ html {
 		@apply dark:bg-neutral-800;
 	}
 
-	.textbase {
-		@apply text-zinc-700;
-		@apply dark:text-zinc-400;
-    }
-
 	@font-face {
 		font-family: 'Pixel Operator Mono';
 		src: url('/assets/fonts/PixelOperatorMono.woff2') format('woff2'),
@@ -39,6 +81,24 @@ html {
 		font-style: normal;
 		font-display: swap;
 	}
+
+	@font-face {
+		font-family: 'Dina';
+		src: url('/assets/fonts/DinaBold.woff2') format('woff2'),
+			url('/assets/fonts/DinaBold.woff') format('woff');
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
+	}
+	
+	@font-face {
+		font-family: 'Dina';
+		src: url('/assets/fonts/Dina.woff2') format('woff2'),
+			url('/assets/fonts/Dina.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}	
 }
 
 

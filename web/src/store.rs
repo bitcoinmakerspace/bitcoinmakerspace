@@ -7,6 +7,7 @@ use yewdux::prelude::*;
 pub struct GlobalStore {
     pub locale: String,
     pub color_mode: Option<ColorMode>,
+    pub drawer_open: bool,
 }
 
 impl Default for GlobalStore {
@@ -14,6 +15,7 @@ impl Default for GlobalStore {
         GlobalStore {
             locale: String::from("en"),
             color_mode: None,
+            drawer_open: false,
         }
     }
 }
@@ -27,5 +29,11 @@ pub fn set_locale(locale: String, dispatch: Dispatch<GlobalStore>) {
 pub fn set_color_mode(color_mode: Option<ColorMode>, dispatch: Dispatch<GlobalStore>) {
     dispatch.reduce_mut(move |store| {
         store.color_mode = color_mode;
+    })
+}
+
+pub fn set_drawer(drawer_open: bool, dispatch: Dispatch<GlobalStore>) {
+    dispatch.reduce_mut(move |store| {
+        store.drawer_open = drawer_open;
     })
 }

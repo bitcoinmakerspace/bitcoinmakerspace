@@ -5,13 +5,16 @@ use yewdux::prelude::use_store;
 
 use crate::{
     library::{ColorMode, Locale, Route},
-    routes::{Home, NotFound},
+    routes::{Contact, Faq, Home, NotFound, Wall},
     store::GlobalStore,
 };
 
 fn switch(routes: Route) -> Html {
     match routes {
         Route::Home => html! { <Home />},
+        Route::Contact => html! { <Contact />},
+        Route::Faq => html! { <Faq />},
+        Route::Wall => html! { <Wall />},
         Route::NotFound => html! { <NotFound />},
     }
 }

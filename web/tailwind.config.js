@@ -9,7 +9,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'op': "Pixel Operator Mono"
+      'op': "Pixel Operator Mono",
+      'dina': "Dina",
     },
     extend: {
       backgroundColor: ['active', 'focus']
