@@ -1,0 +1,94 @@
+common:
+  send: Envoyer
+  join_us: Rejoignez-nous
+  about: À propos
+  how_it_works: Comment ça marche
+  contact: Contact
+  email: E-mail
+  wall: Mur
+acronym:
+  frequently_asked_questions: Faq
+  established: Éta
+about:
+  title: Bienvenue sur Bitcoin Makerspace
+  summary: Bitcoin Makerspace est une plateforme Nostr conçue pour les passionnés de matériel informatique utilisant des logiciels de CAO. Elle offre un espace aux individus et aux groupes pour concevoir et partager des idées.
+  page_content:
+    title: Pourquoi utiliser Bitcoin Makerspace ?
+    reasons: 
+      1:
+        title: Financement décentralisé
+        summary: Bitcoin Makerspace permet aux individus du monde entier de publier et de monétiser des projets, des tutoriels, des produits et des articles liés à Bitcoin.
+      2:
+        title: Expérience conviviale
+        summary: Notre plateforme est conçue pour être facilement accessible, permettant à chacun de publier ses projets et de commencer à gagner des bitcoins de manière non custodiale, sans avoir besoin de posséder un portefeuille préalablement ou de vérifier son identité.
+      3:
+        title: Arbres de projets collaboratifs
+        summary: Construisez sur les projets des autres et partagez la valeur future. Les Arbres de projets permettent aux participants de lier leurs projets, formant un réseau interconnecté où les parties de la valeur future sont distribuées à tous les contributeurs.
+      4:
+        title: Espaces vidéo et salles de discussion
+        summary: Connectez-vous, collaborez et partagez des idées. Organisez des discussions en temps réel et des rencontres virtuelles pour brainstormer des idées avec d'autres créateurs.
+  conclusion: 
+    1: Nous attachons une grande importance aux contributions et aux commentaires de la communauté mondiale de Bitcoin pour contribuer à façonner l'avenir de ce projet open source. Vos contributions, qu'elles soient grandes ou petites, sont les bienvenues. Ensemble, créons une ressource communautaire remarquable.
+    2: L'équipe Bitcoin Makerspace
+    3: consultez notre mur Nostr
+faq:
+  title: Foire aux questions
+  page_content:
+    1:
+      question: Qu'est-ce que Bitcoin Makerspace ?
+      answer: Bitcoin Makerspace est une plateforme Nostr spécialement conçue pour favoriser la collaboration sur des projets matériels utilisant des logiciels de CAO. Elle offre un espace aux individus pour concrétiser leurs idées liées à Bitcoin en réalisant des projets tangibles avec l'aide de leur communauté.
+    2:
+      question: Comment Bitcoin Makerspace peut-il m'aider avec mes projets liés à Bitcoin ?
+      answer: Bitcoin Makerspace propose une plateforme où vous pouvez présenter et collaborer sur vos projets liés à Bitcoin. Elle vous permet de vous connecter avec des personnes partageant les mêmes intérêts, de recevoir des retours précieux et d'accéder aux ressources nécessaires pour concrétiser vos idées.
+    3:
+      question: Ai-je besoin de compétences techniques ou d'expérience pour utiliser Bitcoin Makerspace ?
+      answer: Non, Bitcoin Makerspace est ouvert aux individus de tous niveaux de compétence et de tous horizons. Que vous soyez débutant, passionné ou constructeur expérimenté, vous pouvez participer et contribuer aux projets de la plateforme.
+    4:
+      question: Comment puis-je m'impliquer dans la communauté de Bitcoin Makerspace ?
+      answer: Rejoindre la communauté de Bitcoin Makerspace est facile. Nous utilisons le protocole Nostr pour l'accès, ce qui signifie que vous pouvez utiliser votre paire de clés existante ou en générer une nouvelle pour explorer la plateforme. Vous pouvez partager vos propres projets, offrir de l'aide ou collaborer avec d'autres sur leurs initiatives.
+    5:
+      question: Puis-je monétiser mes projets sur Bitcoin Makerspace ?
+      answer: Oui, vous avez la possibilité de monétiser vos projets grâce à Bitcoin Makerspace. La plateforme vous permet de recevoir le soutien et le financement de la communauté via le Lightning Network basé sur Bitcoin. Cela signifie que des personnes du monde entier peuvent contribuer à vos projets et vous aider à générer des revenus.
+    6:
+      question: Quels types de projets conviennent à Bitcoin Makerspace ?
+      answer: Bitcoin Makerspace est ouvert à une large gamme de projets liés à Bitcoin. Que vous ayez des idées pour des dispositifs matériels, des logiciels pour systèmes embarqués, du contenu éducatif ou des applications créatives de la technologie Bitcoin, la plateforme accueille divers projets dans l'écosystème Bitcoin.
+    7:
+      question: Comment puis-je donner des commentaires ou des suggestions à Bitcoin Makerspace ?
+      answer: Bitcoin Makerspace valorise les contributions et les idées de ses utilisateurs. Si vous avez des commentaires, des suggestions ou des questions, vous pouvez contacter l'équipe de la plateforme grâce aux informations de contact fournies. Votre contribution est importante pour façonner l'avenir de cette ressource communautaire collaborative.
+contact:
+  message_content:
+    placeholder: Écrivez votre message ici
+drawer:
+  control_grid:
+    1:
+      title: Pour commencer
+      links:
+        1:
+          title: Qu'est-ce que Bitcoin Makerspace ?
+        2:
+          title: Comment démarrer un projet
+    2:
+      title: Actualités
+      links:
+        1:
+          title: Bulletins d'information
+        2:
+          title: Actualités Bitcoin Makerspace
+    3:
+      title: Contactez-nous
+      links:
+        1:
+          title: E-mail
+        2:
+          title: Nostr
+wall:
+  title: En construction active.
+not_found:
+  title: La page demandée est introuvable.
+errors:
+  contact_form:
+    contact_to_undefined: Veuillez saisir votre adresse e-mail ou votre hex/npub Nostr.
+    contact_to_formatting: Veuillez saisir une adresse e-mail valide ou un hex/npub Nostr.
+    content_message_undefined: Aucun message reçu, veuillez écrire un message.
+    network_error: Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer.
+    success: Merci pour votre message ! Nous vous contacterons.

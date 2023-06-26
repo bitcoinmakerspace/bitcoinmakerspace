@@ -1,0 +1,95 @@
+common:
+  send: Enviar
+  join_us: Únete
+  about: Acerca de
+  how_it_works: Cómo funciona
+  contact: Contacto
+  email: Correo electrónico
+  wall: Muro
+acronym:
+  frequently_asked_questions: Faq
+  established: Est
+about:
+  title: Bienvenido a Bitcoin Makerspace
+  summary: Bitcoin Makerspace es una plataforma de Nostr diseñada para hackers de hardware que trabajan con software CAD. Proporciona un espacio para que individuos y grupos diseñen y compartan ideas.
+  page_content:
+    title: ¿Por qué usar Bitcoin Makerspace?
+    reasons: 
+      1:
+        title: Financiamiento Descentralizado
+        summary: Bitcoin Makerspace permite a personas de cualquier parte del mundo publicar y monetizar proyectos, tutoriales, productos y artículos relacionados con Bitcoin.
+      2:
+        title: Experiencia de Usuario Amigable
+        summary: Nuestra plataforma está diseñada para ser fácilmente accesible, lo que permite a cualquier persona publicar sus proyectos y comenzar a ganar Bitcoin de forma no custodiada, sin necesidad de tener una billetera previa o verificar su identidad.
+      3:
+        title: Árboles de Proyectos Colaborativos
+        summary: Construye sobre los proyectos de otros y comparte el valor futuro. Los Árboles de Proyectos permiten que los participantes vinculen sus proyectos, formando una red interconectada donde se distribuyen porciones del valor futuro a todos los colaboradores.
+      4:
+        title: Espacios de Video y Salas de Chat
+        summary: Conecta, colabora y comparte ideas. Organiza discusiones en tiempo real y reuniones virtuales para intercambiar ideas con otros creadores.
+  conclusion: 
+    1: Valoramos mucho la contribución y retroalimentación de la comunidad global de Bitcoin para ayudar a dar forma al futuro de este proyecto de código abierto. Tus contribuciones, ya sean grandes o pequeñas, son muy bienvenidas. Juntos, creemos un recurso comunitario excepcional.
+    2: el equipo de Bitcoin Makerspace
+    3: visita nuestro muro en Nostr
+faq:
+  title: Preguntas Frecuentes
+  page_content:
+    1:
+      question: ¿Qué es Bitcoin Makerspace?
+      answer: Bitcoin Makerspace es una plataforma de Nostr diseñada específicamente para apoyar la colaboración en proyectos de hardware que utilizan software CAD. Proporciona un espacio para que individuos conviertan sus ideas relacionadas con Bitcoin en proyectos tangibles con la ayuda de su comunidad.
+    2:
+      question: ¿Cómo puede Bitcoin Makerspace ayudarme con mis proyectos relacionados con Bitcoin?
+      answer: Bitcoin Makerspace ofrece una plataforma donde puedes mostrar y colaborar en tus proyectos relacionados con Bitcoin. Te permite conectarte con personas afines, recibir comentarios valiosos y acceder a los recursos necesarios para dar vida a tus ideas.
+    3:
+      question: ¿Necesito habilidades técnicas o experiencia para usar Bitcoin Makerspace?
+      answer: No, Bitcoin Makerspace está abierto a personas de todos los niveles de habilidad y antecedentes. Ya seas principiante, entusiasta o experto, puedes participar y contribuir a los proyectos de la plataforma.
+    4:
+      question: ¿Cómo puedo involucrarme en la comunidad de Bitcoin Makerspace?
+      answer: Unirse a la comunidad de Bitcoin Makerspace es fácil. Utilizamos el protocolo Nostr para el acceso, por lo tanto, puedes usar tu par de claves existente o generar uno nuevo para explorar la plataforma. Puedes compartir tus propios proyectos, ofrecer asistencia o colaborar con otros en sus iniciativas.
+    5:
+      question: ¿Puedo monetizar mis proyectos en Bitcoin Makerspace?
+      answer: Sí, tienes la oportunidad de monetizar tus proyectos a través de Bitcoin Makerspace. La plataforma te permite recibir apoyo y financiamiento de la comunidad a través de la Lightning Network construida sobre Bitcoin. Esto significa que personas de todo el mundo pueden contribuir a tus proyectos y ayudarte a generar ingresos.
+    6:
+      question: ¿Qué tipo de proyectos son adecuados para Bitcoin Makerspace?
+      answer: Bitcoin Makerspace está abierto a una amplia gama de proyectos relacionados con Bitcoin. Ya sea que tengas ideas para dispositivos de hardware, software de sistemas integrados, contenido educativo o aplicaciones creativas de la tecnología Bitcoin, la plataforma da la bienvenida a proyectos diversos dentro del ecosistema de Bitcoin.
+    7:
+      question: ¿Cómo puedo proporcionar comentarios o sugerencias a Bitcoin Makerspace?
+      answer: Bitcoin Makerspace valora la opinión y las ideas de sus usuarios. Si tienes comentarios, sugerencias o preguntas, puedes comunicarte con el equipo de la plataforma a través de la información de contacto proporcionada. Tu contribución es importante para dar forma al futuro de este recurso comunitario colaborativo.
+contact:
+  message_content:
+    placeholder: Escribe el mensaje aquí
+drawer:
+  control_grid:
+    1:
+      title: Empezando
+      links:
+        1: 
+          title: ¿Qué es Bitcoin Makerspace?
+        2: 
+          title: Cómo iniciar un proyecto
+    2:
+      title: Noticias
+      links:
+        1: 
+          title: Boletines informativos
+        2: 
+          title: Noticias de Bitcoin Makerspace
+    3:
+      title: Contáctanos
+      links:
+        1: 
+          title: Correo electrónico
+        2: 
+          title: Nostr
+wall:
+  title: En construcción activa.
+not_found:
+  title: La página solicitada no pudo ser encontrada.
+errors:
+  contact_form:
+    contact_to_undefined: Por favor, ingresa tu dirección de correo electrónico o Nostr hex/npub.
+    contact_to_formatting: Por favor, ingresa una dirección de correo electrónico o Nostr hex/npub válida.
+    content_message_undefined: No se recibió ningún mensaje, por favor escribe un mensaje.
+    network_error: Hubo un error al enviar tu solicitud. Por favor, inténtalo de nuevo.
+    success: ¡Gracias por tu mensaje! Nos pondremos en contacto contigo.
+    
